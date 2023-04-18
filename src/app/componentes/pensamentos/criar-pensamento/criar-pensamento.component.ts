@@ -1,4 +1,4 @@
-import { Pensamento } from './../pensamento.entity';
+import { Pensamento } from '../../../../../backend/pensamento';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
