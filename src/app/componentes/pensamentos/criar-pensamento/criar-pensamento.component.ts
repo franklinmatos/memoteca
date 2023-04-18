@@ -1,3 +1,4 @@
+import { Pensamento } from './../pensamento.entity';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CriarPensamentoComponent implements OnInit {
 
+  pensamento: Pensamento = {
+    id: 1,
+    conteudo: 'Quem muito fala, da bom dia a cavalo.',
+    modelo: 'modelo1',
+    autoria: 'Desconhecido'
+  }
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  criarPensamento(){
+
+  }
+
+  cancelar(){
+
+
+  }
 }
