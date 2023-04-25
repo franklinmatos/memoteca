@@ -7,10 +7,10 @@
       "modelo": "modelo1"
     },
     {
-      "id": 2,
       "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura",
-      "modelo": "modelo2"
+      "autoria": "Dev Alura teste 2",
+      "modelo": "modelo2",
+      "id": 2
     },
     {
       "id": 3,
@@ -31,9 +31,9 @@
       "id": 5
     },
     {
-      "conteudo": "Teste Edição 01",
+      "conteudo": "Quem com porcos anda, farelos come",
+      "autoria": "Desconhecido",
       "modelo": "modelo3",
-      "autoria": "Franklin Correia",
       "id": 6
     },
     {
