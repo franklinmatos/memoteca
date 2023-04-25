@@ -13,16 +13,10 @@
       "id": 2
     },
     {
-      "id": 3,
-      "conteudo": "Angular é o melhor'",
+      "conteudo": "Angular é o melhor",
       "autoria": "Dev Alura",
-      "modelo": "modelo3"
-    },
-    {
-      "conteudo": "Quem muito fala dá",
-      "modelo": "modelo2",
-      "autoria": "dev",
-      "id": 4
+      "modelo": "modelo3",
+      "id": 3
     },
     {
       "conteudo": "Para bom entendedor, meia palavra basta.",
@@ -49,8 +43,8 @@
       "id": 8
     },
     {
-      "conteudo": "teste de Panesamento",
-      "autoria": "sss",
+      "conteudo": "Teste Pensamento Paginação",
+      "autoria": "Desec",
       "modelo": "modelo3",
       "id": 9
     }
