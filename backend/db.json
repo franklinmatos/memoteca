@@ -1,20 +1,20 @@
 {
   "pensamentos": [
     {
-      "id": 1,
-      "conteudo": "Que bom que vc veio",
-      "autoria": "Nay",
-      "modelo": "modelo1"
+      "conteudo": "Na volta a gente compra!",
+      "autoria": "Mãe",
+      "modelo": "modelo1",
+      "id": 1
     },
     {
-      "conteudo": "Estudando Angular",
-      "autoria": "Dev Alura teste 2",
+      "conteudo": "Se Eu te pegar você vai ver!",
+      "autoria": "Mãe",
       "modelo": "modelo2",
       "id": 2
     },
     {
-      "conteudo": "Angular é o melhor",
-      "autoria": "Dev Alura",
+      "conteudo": "Quem ocm ferro fere, com ferro será ferido",
+      "autoria": "Desconhecido",
       "modelo": "modelo3",
       "id": 3
     },
@@ -37,8 +37,8 @@
       "id": 7
     },
     {
-      "conteudo": "teste formulario",
-      "autoria": "desenvolvedor",
+      "conteudo": "La ele",
+      "autoria": "Soteropolitano Raiz",
       "modelo": "modelo1",
       "id": 8
     },
@@ -47,6 +47,12 @@
       "autoria": "Desec",
       "modelo": "modelo3",
       "id": 9
+    },
+    {
+      "conteudo": "Vou lhe mostrar com quantas porras se faz uma desgraça!",
+      "autoria": "Soteropolitano Raiz.",
+      "modelo": "modelo3",
+      "id": 10
     }
   ]
 }
