@@ -33,6 +33,7 @@ export class EditarPensamentoComponent implements OnInit {
         this.formulario.get('autoria')?.setValue(pensamento.autoria)
         this.formulario.get('id')?.setValue(pensamento.id)
         this.formulario.get('modelo')?.setValue(pensamento.modelo)
+        this.formulario.get('favorito')?.setValue(pensamento.favorito)
         console.log('formulario Edit =>> ',this.formulario)
     })
   }
@@ -59,7 +60,8 @@ export class EditarPensamentoComponent implements OnInit {
         Validators.minLength(3)
       ]
         )],
-      modelo: ['modelo3' ]
+      modelo: ['modelo3' ],
+      favorito: false
     })
     this.formulario.get('conteudo')?.errors
   }
@@ -68,7 +70,8 @@ export class EditarPensamentoComponent implements OnInit {
     this.pensamento = {
       conteudo: '',
       autoria: '',
-      modelo: ''
+      modelo: '',
+      favorito: false
     }
     this.pensamento.autoria = formulario.get('autoria')?.value
     this.pensamento.conteudo = formulario.get('conteudo')?.value
