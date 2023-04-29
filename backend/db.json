@@ -4,21 +4,21 @@
       "conteudo": "Na volta a gente compra!",
       "autoria": "Mãe",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 1
     },
     {
       "conteudo": "Se Eu te pegar você vai ver!",
       "autoria": "Mãe",
       "modelo": "modelo2",
-      "favorito": true,
+      "favorito": false,
       "id": 2
     },
     {
       "conteudo": "Quem ocm ferro fere, com ferro será ferido",
       "autoria": "Desconhecido",
       "modelo": "modelo3",
-      "favorito": true,
+      "favorito": false,
       "id": 3
     },
     {
@@ -39,14 +39,14 @@
       "conteudo": "Eita porra, esqueci a parada!",
       "modelo": "modelo3",
       "autoria": "Baiano soteropolitano",
-      "favorito": true,
+      "favorito": false,
       "id": 7
     },
     {
       "conteudo": "La ele",
       "autoria": "Soteropolitano Raiz",
       "modelo": "modelo1",
-      "favorito": true,
+      "favorito": false,
       "id": 8
     },
     {

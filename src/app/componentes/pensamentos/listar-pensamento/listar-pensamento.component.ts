@@ -10,13 +10,14 @@ import { Component, OnInit } from '@angular/core';
 export class ListarPensamentoComponent implements OnInit {
 
   listaPensamentos: Pensamento[] = [];
+  listaFavoritos:  Pensamento[] = [];
   paginaAtual: number = 1;
   haMaisPensamentos: boolean = true;
   filtro: string = ""
   constructor(private pensamentoService: PensamentoService) { }
 
   ngOnInit(): void {
-    this.pensamentoService.listar(this.paginaAtual, this.filtro)
+    this.pensamentoService.listar(this.paginaAtual, this.filtro, false)
       .subscribe( (dados) =>{
         this.listaPensamentos = dados;
       });
@@ -24,7 +25,7 @@ export class ListarPensamentoComponent implements OnInit {
   }
 
   carregarMaisPensamentos(){
-    this.pensamentoService.listar(++this.paginaAtual, this.filtro)
+    this.pensamentoService.listar(++this.paginaAtual, this.filtro, false)
     .subscribe(listaPensamentos => {
       this.listaPensamentos.push(...listaPensamentos)
       if(!listaPensamentos.length){
@@ -36,10 +37,18 @@ export class ListarPensamentoComponent implements OnInit {
   pesquisarPensamentos(){
     this.haMaisPensamentos = true
     this.paginaAtual = 1
-      this.pensamentoService.listar(this.paginaAtual, this.filtro)
+      this.pensamentoService.listar(this.paginaAtual, this.filtro, false)
       .subscribe(listaPensamento => {
         this.listaPensamentos = listaPensamento
       })
+  }
+
+  listarPensamentosFavoritos(){
+    this.haMaisPensamentos = true
+    this.pensamentoService.listar(this.paginaAtual, this.filtro, true).subscribe(pensamentos => {
+      this.listaPensamentos = pensamentos;
+      this.listaFavoritos = this.listaPensamentos
+    })
   }
 
 }
