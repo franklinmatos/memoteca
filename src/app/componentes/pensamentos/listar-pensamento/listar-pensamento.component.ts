@@ -14,7 +14,8 @@ export class ListarPensamentoComponent implements OnInit {
   listaFavoritos:  Pensamento[] = [];
   paginaAtual: number = 1;
   haMaisPensamentos: boolean = true;
-  filtro: string = ""
+  filtro: string = "";
+  titulo: string = "Meu Mural";
 
   constructor(
     private pensamentoService: PensamentoService,
@@ -52,6 +53,7 @@ export class ListarPensamentoComponent implements OnInit {
     this.pensamentoService.listar(this.paginaAtual, this.filtro, true).subscribe(pensamentos => {
       this.listaPensamentos = pensamentos;
       this.listaFavoritos = this.listaPensamentos
+      this.titulo = "Meus Favoritos"
     })
   }
   recarregarComponente(){

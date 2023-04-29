@@ -11,14 +11,14 @@
       "conteudo": "Se Eu te pegar você vai ver!",
       "autoria": "Mãe",
       "modelo": "modelo2",
-      "favorito": false,
+      "favorito": true,
       "id": 2
     },
     {
       "conteudo": "Quem ocm ferro fere, com ferro será ferido",
       "autoria": "Desconhecido",
       "modelo": "modelo3",
-      "favorito": false,
+      "favorito": true,
       "id": 3
     },
     {
